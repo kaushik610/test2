@@ -16,7 +16,7 @@
       "toolsId": "5977737a-3830-4748-9009-3ffd6523f161"
     },
     "dataSources": {
-      "mainData":{
+      "mainData": {
         "uri": "./model/users.json",
         "type": "JSON"
       }
@@ -77,7 +77,7 @@
           "bundleName": "test2.i18n.i18n"
         }
       },
-      "mainUser":{
+      "mainUser": {
         "dataSource": "mainData",
         "type": "sap.ui.model.json.JSONModel"
       }
