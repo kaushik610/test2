@@ -3,7 +3,7 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
        <content>
-       <List items="{mainUser>/users}">
+       <List id="listmain" items="{mainUser>/users}">
        <ObjectListItem intro="{mainUser>first_name}" counter="{mainUser>id}" highlight="{= ${mainUser>gender} === 'Male' ? 'Success' :'Warning' }" highlightText="{= ${mainUser>gender} === 'Male' ? 'Male' :'Female' }" title="{mainUser>email}"></ObjectListItem>
        </List>
        </content>
